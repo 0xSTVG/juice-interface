@@ -1470,6 +1470,10 @@ msgid "Edit tracked assets"
 msgstr "Edit tracked assets"
 
 #: src/components/veNft/VeNftSetupSection.tsx
+msgid "Enable veBanny Governance"
+msgstr "Enable veBanny Governance"
+
+#: src/components/veNft/VeNftSetupSection.tsx
 msgid "Enable veNFT Governance"
 msgstr "Enable veNFT Governance"
 
@@ -3098,8 +3102,15 @@ msgstr "Set this to the sum of all your payouts"
 msgid "Set up V1 token migration"
 msgstr "Set up V1 token migration"
 
-#: src/components/veNft/VeNftSetupModal.tsx
 #: src/components/veNft/VeNftSetupSection.tsx
+msgid "Set up and launch veNFT governance for your project using custom assets and parameters. (Experimental, does not currently launch)"
+msgstr "Set up and launch veNFT governance for your project using custom assets and parameters. (Experimental, does not currently launch)"
+
+#: src/components/veNft/VeNftSetupSection.tsx
+msgid "Set up and launch veNFT governance for your project using default veBanny assets and parameters."
+msgstr "Set up and launch veNFT governance for your project using default veBanny assets and parameters."
+
+#: src/components/veNft/VeNftSetupModal.tsx
 msgid "Set up and launch veNFT governance for your project."
 msgstr "Set up and launch veNFT governance for your project."
 
