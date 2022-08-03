@@ -275,7 +275,7 @@ export default function Projects() {
         </div>
       ) : selectedTab === 'trending' ? (
         <div style={{ paddingBottom: 50 }}>
-          <TrendingProjects count={12} trendingWindowDays={7} />
+          <TrendingProjects count={12} />
         </div>
       ) : null}
 
