@@ -460,6 +460,10 @@ msgstr "Отрегулируйте стимулы для оплаты вашег
 msgid "Advanced (optional)"
 msgstr ""
 
+#: src/components/veNft/VeNftStakingForm.tsx
+msgid "Advanced Options"
+msgstr ""
+
 #: src/pages/projects/ProjectsTabs.tsx
 msgid "All"
 msgstr "Все"
@@ -496,6 +500,10 @@ msgstr "Выделите часть зарезервированных токе�
 msgid "Allow minting tokens"
 msgstr "Разрешить майнинг токенов"
 
+#: src/components/veNft/formControls/AllowPublicExtensionInput.tsx
+msgid "Allow public lock extension"
+msgstr ""
+
 #: src/pages/create/forms/RulesForm/index.tsx
 #: src/pages/create/tabs/ReviewDeployTab/FundingAttributes.tsx
 msgid "Allow terminal configuration"
@@ -518,6 +526,10 @@ msgstr ""
 #: src/pages/v1/create/ConfirmDeployProject.tsx
 msgid "Allowed"
 msgstr "Разрешено"
+
+#: src/components/veNft/formControls/AllowPublicExtensionInput.tsx
+msgid "Allows anyone to extend your lock position."
+msgstr ""
 
 #: src/pages/index.page.tsx
 msgid "Almost definitely."
@@ -1474,11 +1486,11 @@ msgstr "Изменить распределение токенов"
 msgid "Edit tracked assets"
 msgstr "Изменить отслеживаемые активы"
 
-#: src/components/veNft/VeNftSetupSection.tsx
+#: src/components/veNft/VeNftEnableSection.tsx
 msgid "Enable veBanny Governance"
 msgstr ""
 
-#: src/components/veNft/VeNftSetupSection.tsx
+#: src/components/veNft/VeNftEnableSection.tsx
 msgid "Enable veNFT Governance"
 msgstr ""
 
@@ -2269,10 +2281,6 @@ msgstr ""
 
 #: src/components/formItems/ENSName.tsx
 msgid "Only lowercase letters"
-msgstr ""
-
-#: src/components/veNft/VeNftStakingForm.tsx
-msgid "Only project tokens claimed as ERC-20 tokens can be staked for NFTs."
 msgstr ""
 
 #: src/components/v1/V1Project/modals/V1BalancesModal.tsx
@@ -3107,11 +3115,11 @@ msgstr ""
 msgid "Set up V1 token migration"
 msgstr ""
 
-#: src/components/veNft/VeNftSetupSection.tsx
+#: src/components/veNft/VeNftEnableSection.tsx
 msgid "Set up and launch veNFT governance for your project using custom assets and parameters. (Experimental, does not currently launch)"
 msgstr ""
 
-#: src/components/veNft/VeNftSetupSection.tsx
+#: src/components/veNft/VeNftEnableSection.tsx
 msgid "Set up and launch veNFT governance for your project using default veBanny assets and parameters."
 msgstr ""
 
@@ -3554,6 +3562,10 @@ msgstr "Символ токена"
 
 #: src/components/modals/IssueTokenModal.tsx
 msgid "Token symbol is required"
+msgstr ""
+
+#: src/components/veNft/formControls/VeNftTokenSelectInput.tsx
+msgid "Token to Lock:"
 msgstr ""
 
 #: src/components/v1/shared/Mod.tsx
