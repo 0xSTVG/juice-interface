@@ -15,7 +15,9 @@ import '../styles/antd.css'
 import '../styles/index.scss'
 
 // TODO: Move this to each page where needed.
-const AppWrapper: React.FC = ({ children }) => {
+const AppWrapper: React.FC<React.PropsWithChildren<unknown>> = ({
+  children,
+}) => {
   const [switchNetworkModalVisible, setSwitchNetworkModalVisible] =
     useState<boolean>()
 

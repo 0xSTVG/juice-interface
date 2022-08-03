@@ -10,7 +10,9 @@ import store from 'redux/store'
 /**
  * Contains all the core app providers used by each page.
  */
-export const CoreAppWrapper: React.FC = ({ children }) => {
+export const CoreAppWrapper: React.FC<React.PropsWithChildren<unknown>> = ({
+  children,
+}) => {
   return (
     <React.StrictMode>
       <ReactQueryProvider>
